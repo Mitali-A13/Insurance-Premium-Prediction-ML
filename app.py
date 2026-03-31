@@ -139,7 +139,7 @@ class UserInput(BaseModel):
 
 
 # create an endpoint to predict the category
-@app.post("/predit")
+@app.post("/predict")
 def predict_premium(data: UserInput):
     # converting the json format req to data frame, as the model expects datafram input as it is trained on the same input format
     input_df = pd.DataFrame(
