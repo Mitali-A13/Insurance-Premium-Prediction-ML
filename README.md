@@ -1,6 +1,6 @@
 # AI Insurance Premium Predictor
 
-A full-stack machine learning application that predicts insurance premium categories based on user data using a trained Random Forest model.
+A full-stack machine learning application with a Streamlit frontend and FastAPI backend that predicts insurance premium categories using a trained Random Forest model.
 
 ---
 
